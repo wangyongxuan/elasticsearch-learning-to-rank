@@ -4,7 +4,7 @@ logQuery = {
     "size": 100,
     "query": {
         "bool": {
-            "must": [
+            "filter": [
                 {
                     "terms": {
                         "_id": ["7555"]
